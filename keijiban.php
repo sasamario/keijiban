@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' &&
 }
 
 $posts=file($dataFile,FILE_IGNORE_NEW_LINES);  //最後の改行記号を取り除く
-$posts=array_reverse($posts); //配列の中身はそのまま　時系列は新しい順になる？
+$posts=array_reverse($posts); //配列の中身はそのまま　時系列は新しい順になる
 
  ?>
 
